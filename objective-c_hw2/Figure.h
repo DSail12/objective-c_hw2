@@ -11,6 +11,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Figure : NSObject
 
-@end
+- (double)calculateArea; // Метод для вычисления площади
+- (double)calculatePerimeter; // Метод для вычисления периметра
+- (void)printInfo; // Метод для вывода информации о фигуре
 
+@end
 NS_ASSUME_NONNULL_END

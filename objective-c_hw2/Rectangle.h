@@ -6,11 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Figure.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Rectangle : NSObject
+@interface Rectangle : Figure
+
+@property (nonatomic, assign) double width;
+@property (nonatomic, assign) double height;
 
 @end
-
 NS_ASSUME_NONNULL_END
